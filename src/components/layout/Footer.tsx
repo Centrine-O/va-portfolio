@@ -28,8 +28,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold gradient-text">Centrine Ong'aria</h3>
             <p className="text-muted-foreground">
-              Statistician, Data Analyst & Full Stack Developer creating data-driven solutions 
-              and innovative web applications.
+              Virtual Assistant & Executive Support Specialist providing comprehensive 
+              administrative solutions and technical expertise for busy professionals.
             </p>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <MapPin className="h-4 w-4" />
@@ -79,7 +79,7 @@ const Footer = () => {
               ))}
             </div>
             <p className="text-sm text-muted-foreground">
-              Open to exciting opportunities in data analysis, web development, and AI projects.
+              Ready to support your business with professional virtual assistant services.
             </p>
           </div>
         </div>

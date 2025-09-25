@@ -126,8 +126,8 @@ const Contact = () => {
           <div className="text-center space-y-6 text-primary-foreground">
             <h1 className="text-5xl font-bold">Let's Work Together</h1>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              Ready to bring your ideas to life? I'm here to help with your next project, 
-              whether it's web development, data analysis, or AI solutions.
+              Ready to streamline your business operations? I'm here to provide comprehensive 
+              virtual assistant services, executive support, and digital solutions.
             </p>
           </div>
         </div>
@@ -192,7 +192,7 @@ const Contact = () => {
                       <Textarea
                         id="message"
                         name="message"
-                        placeholder="Tell me about your project or how I can help you..."
+                        placeholder="Tell me about your business needs or how I can support you..."
                         className="min-h-[120px]"
                         value={formData.message}
                         onChange={handleInputChange}
@@ -290,8 +290,8 @@ const Contact = () => {
                     <span className="text-sm font-medium">Available for new projects</span>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    I'm currently accepting new clients and projects. 
-                    Typical response time is within 24 hours.
+                    I'm currently accepting new clients and ready to support your business. 
+                    Typical response time is within 12 hours during business days.
                   </p>
                   <div className="text-sm text-muted-foreground">
                     <strong>Time Zone:</strong> East Africa Time (EAT, UTC+3)
@@ -320,20 +320,20 @@ const Contact = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  I offer full-stack web development, data analysis, business intelligence dashboards, 
-                  mobile app development, and AI/ML consulting services.
+                  I offer comprehensive virtual assistant services including executive support, 
+                  administrative management, CRM administration, digital marketing support, and AI data annotation.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="border-0 bg-gradient-card">
               <CardHeader>
-                <CardTitle className="text-lg">What's your typical project timeline?</CardTitle>
+                <CardTitle className="text-lg">How quickly can you start supporting my business?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Project timelines vary based on complexity. Simple websites take 1-2 weeks, 
-                  while complex applications can take 1-3 months. I'll provide a detailed timeline during our consultation.
+                  I can typically begin supporting your business within 1-3 business days after our initial consultation. 
+                  For ongoing support, I offer flexible arrangements from part-time to full-time assistance.
                 </p>
               </CardContent>
             </Card>
@@ -344,8 +344,8 @@ const Contact = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Yes! I work with clients globally and am experienced in remote collaboration. 
-                  I'm flexible with time zones and communication preferences.
+                  Absolutely! I specialize in remote support and work with clients across different time zones. 
+                  I'm experienced in virtual collaboration and maintaining professional relationships remotely.
                 </p>
               </CardContent>
             </Card>
@@ -356,8 +356,8 @@ const Contact = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  I prefer email for initial contact and detailed discussions. For ongoing projects, 
-                  I'm comfortable with Slack, Teams, Zoom, or whatever platform works best for you.
+                  I prefer email for initial contact and detailed planning. For daily operations, 
+                  I'm comfortable with Slack, Teams, WhatsApp, or your preferred communication platform.
                 </p>
               </CardContent>
             </Card>
