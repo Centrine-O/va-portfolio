@@ -38,7 +38,7 @@ const Home = () => {
                   <span className="gradient-text">Centrine</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-muted-foreground">
-                  Statistician | Data Analyst | Full Stack Developer
+                  Data Analytics Developer | AI Automation Specialist | Full Stack Developer
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-2xl">
                   Passionate about creating data-driven solutions and innovative web applications. 
