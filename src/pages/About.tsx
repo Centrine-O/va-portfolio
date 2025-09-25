@@ -13,19 +13,19 @@ const About = () => {
       icon: GraduationCap,
       title: 'BSc in Statistics',
       description: 'University of Nairobi (2015-2019)',
-      highlight: 'Strong foundation in statistical analysis and mathematical modeling'
+      highlight: 'Strong analytical foundation for data-driven decision making'
     },
     {
       icon: Award,
-      title: 'Software Engineering',
-      description: 'Moringa School (2024-2025)',
-      highlight: 'Full-stack web development with modern frameworks'
+      title: 'Virtual Assistant Certification',
+      description: 'ALX Africa (2024)',
+      highlight: 'Professional training in remote work and client management'
     },
     {
       icon: Briefcase,
       title: 'Professional Experience',
-      description: '4+ Years in Tech Industry',
-      highlight: 'From data analysis to full-stack development'
+      description: '4+ Years in Administrative Support',
+      highlight: 'From executive assistance to AI-powered business solutions'
     }
   ];
 
@@ -37,8 +37,8 @@ const About = () => {
           <div className="text-center space-y-6 text-primary-foreground">
             <h1 className="text-5xl font-bold">About Me</h1>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              A passionate professional with a unique blend of statistical expertise and 
-              full-stack development skills, dedicated to solving complex problems with data-driven solutions.
+              Your dedicated virtual assistant with a unique blend of administrative expertise, 
+              technical skills, and AI knowledge to streamline your business operations.
             </p>
           </div>
         </div>
@@ -52,21 +52,23 @@ const About = () => {
               <h2 className="text-3xl font-bold">Professional Summary</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I am a versatile and adaptable professional with a strong background in statistics 
-                  and comprehensive hands-on experience across web development, data analysis, 
-                  AI data annotation, digital content creation, and executive support.
+                  I am a versatile virtual assistant with over 4 years of experience providing 
+                  comprehensive administrative support, executive assistance, and digital solutions. 
+                  My background in statistics gives me a unique analytical approach to organizing 
+                  workflows and optimizing business processes.
                 </p>
                 <p>
-                  My journey has taken me from analyzing statistical data at the Kenya National 
-                  Bureau of Statistics to developing full-stack applications for international 
-                  clients. I have contributed to AI and data-driven projects, worked with both 
-                  frontend and backend technologies, and collaborated on multilingual content and SEO.
+                  From managing complex calendars and coordinating international meetings to developing 
+                  custom WordPress solutions and providing AI data annotation services, I bring a 
+                  technical edge to traditional virtual assistant work. I specialize in CRM management, 
+                  digital marketing support, and workflow automation.
                 </p>
                 <p>
-                  With a foundation in statistical thinking, I approach each project—whether technical, 
-                  creative, or administrative—with structure, attention to detail, and a strong learning 
-                  mindset. I thrive in environments that require flexibility, problem-solving, and 
-                  communication across diverse teams.
+                  My experience spans working with C-level executives, small business owners, and 
+                  tech companies. I excel at understanding unique business needs and implementing 
+                  efficient systems that save time, reduce costs, and improve productivity. 
+                  I'm committed to delivering exceptional service while maintaining the highest 
+                  standards of professionalism and confidentiality.
                 </p>
               </div>
               <Button asChild className="bg-gradient-primary">
@@ -103,9 +105,9 @@ const About = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-4xl font-bold">Technical Skills</h2>
+            <h2 className="text-4xl font-bold">Professional Skills</h2>
             <p className="text-xl text-muted-foreground">
-              A comprehensive toolkit for modern software development and data analysis
+              A comprehensive toolkit for modern virtual assistance and business support
             </p>
           </div>
 
@@ -146,10 +148,10 @@ const About = () => {
 
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Statistical Analysis', 'Web Development', 'Data Visualization', 'API Development',
-              'Database Design', 'Machine Learning', 'Project Management', 'Team Collaboration',
-              'Problem Solving', 'Client Communication', 'Agile Development', 'Code Review',
-              'Performance Optimization', 'Testing & QA', 'Documentation', 'Mentoring'
+              'Executive Support', 'Calendar Management', 'Email Administration', 'CRM Management',
+              'Digital Marketing', 'Content Creation', 'Social Media Management', 'SEO Optimization',
+              'Website Management', 'Data Entry', 'Research & Analysis', 'Event Coordination',
+              'Travel Planning', 'Document Management', 'AI Data Annotation', 'Process Automation'
             ].map((competency) => (
               <Badge key={competency} variant="secondary" className="text-sm py-2 px-4 hover:bg-primary hover:text-primary-foreground transition-colors cursor-default">
                 {competency}
@@ -165,10 +167,11 @@ const About = () => {
           <div className="text-center space-y-6">
             <h2 className="text-4xl font-bold">Beyond Work</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              When I'm not coding or analyzing data, I enjoy exploring new technologies, 
-              contributing to open-source projects, mentoring aspiring developers, and 
-              staying updated with the latest trends in AI and data science. I believe 
-              in continuous learning and sharing knowledge with the tech community.
+              When I'm not supporting clients, I enjoy learning about new productivity tools, 
+              exploring automation technologies, staying updated with the latest business trends, 
+              and contributing to the virtual assistant community. I believe in continuous 
+              improvement and sharing best practices that help other professionals excel in 
+              remote work environments.
             </p>
           </div>
         </div>

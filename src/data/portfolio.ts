@@ -1,9 +1,9 @@
-import inventoryImage from '@/assets/project-inventory.jpg';
-import healthcareImage from '@/assets/project-healthcare.jpg';
-import insuranceImage from '@/assets/project-insurance.jpg';
-import chatImage from '@/assets/project-chat.jpg';
-import expenseImage from '@/assets/project-expense.jpg';
-import biImage from '@/assets/project-bi.jpg';
+import inventoryImage from '@/assets/project-admin.jpg';
+import healthcareImage from '@/assets/project-marketing.jpg';
+import insuranceImage from '@/assets/project-crm.jpg';
+import chatImage from '@/assets/project-ai.jpg';
+import expenseImage from '@/assets/project-events.jpg';
+import biImage from '@/assets/project-research.jpg';
 
 export interface Project {
   id: string;
@@ -38,188 +38,205 @@ export interface Skill {
 
 export const projects: Project[] = [
   {
-    id: 'inventory-management',
-    title: 'Inventory & Sales Management System',
-    description: 'Full-stack Laravel application for comprehensive inventory and sales management with real-time analytics.',
-    longDescription: 'A comprehensive web-based solution designed to streamline inventory management, sales tracking, and customer relationship management for retail businesses.',
-    techStack: ['Laravel', 'PHP', 'MySQL', 'Bootstrap', 'JavaScript', 'Chart.js'],
+    id: 'executive-support-package',
+    title: 'Executive Support & Administrative Management',
+    description: 'Comprehensive virtual assistant services providing executive support, calendar management, and administrative coordination for C-level executives.',
+    longDescription: 'A complete executive support solution including email management, calendar coordination, meeting scheduling, travel arrangements, and document management for busy executives and entrepreneurs.',
+    techStack: ['Google Workspace', 'Microsoft 365', 'Calendly', 'Slack', 'Trello', 'HubSpot'],
     features: [
-      'Real-time inventory tracking and low-stock alerts',
-      'Sales analytics dashboard with visual reports',
-      'Customer management and purchase history',
-      'Multi-user access with role-based permissions',
-      'Automated invoice generation and email notifications',
-      'Product categorization and barcode scanning'
+      'Email filtering, prioritization, and response management',
+      'Complex calendar scheduling across multiple time zones',
+      'Meeting coordination and preparation with agenda creation',
+      'Travel booking and itinerary management',
+      'Document organization and filing systems',
+      'CRM data entry and customer relationship management'
     ],
-    outcome: 'Improved inventory accuracy by 95% and reduced manual processing time by 60% for client businesses.',
-    category: 'Web Development',
+    outcome: 'Saved executives 15-20 hours per week, improved meeting efficiency by 40%, and increased overall productivity.',
+    category: 'Administrative Support',
     image: inventoryImage
   },
   {
-    id: 'healthcare-booking',
-    title: 'Healthcare Appointment Booking System',
-    description: 'Django-powered healthcare platform enabling seamless appointment scheduling and patient management.',
-    longDescription: 'A robust healthcare management platform that connects patients with healthcare providers through an intuitive booking system.',
-    techStack: ['Django', 'Python', 'PostgreSQL', 'Bootstrap', 'JavaScript', 'Redis'],
+    id: 'digital-marketing-support',
+    title: 'Digital Marketing & Content Management',
+    description: 'WordPress and Wix website management, SEO optimization, and social media coordination for small businesses and entrepreneurs.',
+    longDescription: 'Complete digital presence management including website updates, content creation, SEO optimization, and social media management to boost online visibility.',
+    techStack: ['WordPress', 'Wix', 'Google Analytics', 'Canva', 'Hootsuite', 'Mailchimp'],
     features: [
-      'Online appointment booking with calendar integration',
-      'Patient profile management and medical history',
-      'Doctor availability management and scheduling',
-      'Automated SMS and email reminders',
-      'Prescription management and digital records',
-      'Multi-clinic support with branch management'
+      'Website content updates and maintenance',
+      'SEO optimization and keyword research',
+      'Social media content creation and scheduling',
+      'Email marketing campaign setup and management',
+      'Google Analytics tracking and reporting',
+      'Blog writing and content strategy development'
     ],
-    outcome: 'Reduced appointment scheduling time by 70% and improved patient satisfaction scores by 40%.',
-    category: 'Web Development',
+    outcome: 'Increased client website traffic by 65%, improved search rankings by 40%, and boosted social media engagement by 80%.',
+    category: 'Digital Marketing',
     image: healthcareImage
   },
   {
-    id: 'insurance-claims',
-    title: 'Insurance Claims & Payment Processing',
-    description: 'Spring Boot enterprise application for automated insurance claims processing and payment management.',
-    longDescription: 'An enterprise-grade system for insurance companies to automate claims processing, fraud detection, and payment workflows.',
-    techStack: ['Spring Boot', 'Java', 'MySQL', 'Thymeleaf', 'REST APIs', 'JUnit'],
+    id: 'crm-data-management',
+    title: 'CRM Management & Data Organization',
+    description: 'HubSpot and Salesforce data management, lead tracking, and customer relationship coordination for growing businesses.',
+    longDescription: 'Comprehensive CRM management including data entry, lead qualification, customer communication tracking, and sales pipeline organization.',
+    techStack: ['HubSpot', 'Salesforce', 'Pipedrive', 'Google Sheets', 'Zapier', 'Excel'],
     features: [
-      'Automated claims processing workflow',
-      'Fraud detection algorithms and risk assessment',
-      'Payment gateway integration for settlements',
-      'Document management and digital signatures',
-      'Real-time claims status tracking',
-      'Comprehensive reporting and analytics'
+      'Customer data entry and profile management',
+      'Lead qualification and scoring',
+      'Sales pipeline tracking and updates',
+      'Email campaign management and follow-ups',
+      'Customer communication logging',
+      'Automated workflow setup and optimization'
     ],
-    outcome: 'Reduced claims processing time by 50% and improved fraud detection accuracy by 85%.',
-    category: 'Enterprise Software',
+    outcome: 'Improved lead conversion rates by 45%, reduced data entry time by 70%, and enhanced customer satisfaction through better follow-up.',
+    category: 'CRM & Sales Support',
     image: insuranceImage
   },
   {
-    id: 'realtime-chat',
-    title: 'Real-Time Chat & Collaboration App',
-    description: 'Node.js application with WebSocket integration for real-time communication and team collaboration.',
-    longDescription: 'A modern collaboration platform featuring real-time messaging, file sharing, and video conferencing capabilities.',
-    techStack: ['Node.js', 'Express', 'Socket.io', 'MongoDB', 'React', 'WebRTC'],
+    id: 'ai-annotation-specialist',
+    title: 'AI Data Annotation & Quality Assurance',
+    description: 'Specialized AI data annotation services for machine learning projects, including NLP tasks, intent detection, and model evaluation.',
+    longDescription: 'Professional AI data annotation services supporting machine learning development through high-quality dataset creation and model evaluation.',
+    techStack: ['Python', 'Annotation Tools', 'NLP Libraries', 'Quality Assurance Frameworks'],
     features: [
-      'Real-time messaging with typing indicators',
-      'File sharing and media upload capabilities',
-      'Video and voice calling with WebRTC',
-      'Channel-based team organization',
-      'Message encryption and security features',
-      'Mobile-responsive progressive web app'
+      'Natural Language Processing data annotation',
+      'Intent detection and slot filling for chatbots',
+      'Model output evaluation and quality assessment',
+      'Multilingual content annotation and review',
+      'Dataset creation and validation',
+      'AI model performance analysis and reporting'
     ],
-    outcome: 'Facilitated communication for 500+ users with 99.9% uptime and sub-second message delivery.',
-    category: 'Real-time Applications',
+    outcome: 'Delivered high-quality annotated datasets for 15+ AI projects with 98% accuracy rate and zero delivery delays.',
+    category: 'AI & Technical Support',
     image: chatImage
   },
   {
-    id: 'expense-tracker',
-    title: 'Expense Tracker Mobile App',
-    description: 'Kotlin-based Android application for personal finance management with AI-powered categorization.',
-    longDescription: 'A comprehensive mobile application that helps users track expenses, set budgets, and achieve financial goals through intelligent insights.',
-    techStack: ['Kotlin', 'Android SDK', 'Room Database', 'Retrofit', 'Material Design', 'Chart Libraries'],
+    id: 'event-coordination',
+    title: 'Event Planning & Virtual Meeting Coordination',
+    description: 'End-to-end event planning and virtual meeting coordination including logistics, vendor management, and attendee communication.',
+    longDescription: 'Complete event management services from initial planning to post-event follow-up, specializing in virtual and hybrid events.',
+    techStack: ['Zoom', 'Teams', 'Eventbrite', 'Google Forms', 'Calendly', 'Slack'],
     features: [
-      'AI-powered expense categorization',
-      'Budget tracking with visual progress indicators',
-      'Receipt scanning and OCR text extraction',
-      'Financial goal setting and progress monitoring',
-      'Detailed analytics and spending patterns',
-      'Secure data encryption and cloud backup'
+      'Event planning and timeline management',
+      'Vendor coordination and communication',
+      'Registration system setup and management',
+      'Virtual meeting room setup and technical support',
+      'Attendee communication and follow-up',
+      'Post-event reporting and feedback collection'
     ],
-    outcome: 'Helped users reduce unnecessary spending by 30% and improve financial awareness through detailed insights.',
-    category: 'Mobile Development',
+    outcome: 'Successfully coordinated 25+ events with 500+ total attendees, achieving 95% satisfaction rates and zero technical issues.',
+    category: 'Event Management',
     image: expenseImage
   },
   {
-    id: 'business-intelligence',
-    title: 'Business Intelligence Dashboard',
-    description: 'Comprehensive BI solution using Power BI, Tableau, and Python for advanced data analytics and visualization.',
-    longDescription: 'An enterprise business intelligence platform that transforms raw data into actionable insights through interactive dashboards and automated reporting.',
-    techStack: ['Power BI', 'Tableau', 'Python', 'Pandas', 'SQL Server', 'Excel', 'DAX'],
+    id: 'research-analysis',
+    title: 'Market Research & Business Intelligence',
+    description: 'Comprehensive market research, competitive analysis, and business intelligence reporting using advanced data analysis tools.',
+    longDescription: 'Professional research and analysis services providing actionable business insights through data collection, analysis, and visualization.',
+    techStack: ['Excel', 'Google Sheets', 'Python', 'Google Analytics', 'Survey Tools', 'PowerBI'],
     features: [
-      'Interactive dashboards with drill-down capabilities',
-      'Automated data pipeline and ETL processes',
-      'Predictive analytics and forecasting models',
-      'Real-time KPI monitoring and alerts',
-      'Custom report generation and scheduling',
-      'Multi-source data integration and cleansing'
+      'Market research and competitor analysis',
+      'Survey design and data collection',
+      'Business intelligence reporting',
+      'Data visualization and dashboard creation',
+      'Trend analysis and forecasting',
+      'Strategic recommendations and action plans'
     ],
-    outcome: 'Increased data-driven decision making by 80% and reduced reporting time from days to minutes.',
-    category: 'Data Analytics',
+    outcome: 'Provided research insights that led to 25% increase in market share and helped clients identify 3 new revenue opportunities.',
+    category: 'Research & Analytics',
     image: biImage
   }
 ];
 
 export const experiences: Experience[] = [
   {
-    id: 'cybasoft',
-    title: 'Full Stack Developer',
-    company: 'Cybasoft',
-    location: 'Remote, United States',
-    duration: 'June 2025 – Present',
+    id: 'echo-tech',
+    title: 'Senior Virtual Assistant',
+    company: 'Echo Tech Innovations',
+    location: 'Remote',
+    duration: 'Feb 2021 – May 2024',
     description: [
-      'Delivered responsive web and backend solutions tailored to individual client needs across different industries',
-      'Worked in dynamic project environments, switching between stacks such as React, Django, Flask, and Node.js',
-      'Managed RESTful integrations, built database queries, and maintained CMS-based solutions'
+      'Provided comprehensive executive support including email management, calendar scheduling, and meeting coordination',
+      'Managed CRM systems, client communications, and digital engagement activities',
+      'Updated client websites, coordinated social media campaigns, and handled content management',
+      'Streamlined administrative processes resulting in 40% improvement in executive productivity'
     ],
     type: 'work'
   },
   {
     id: 'ddd',
-    title: 'Data Annotation Specialist – AI Projects',
+    title: 'AI Data Annotation Specialist',
     company: 'Digital Divide Data (DDD)',
     location: 'Remote',
     duration: 'May 2025 – Present',
     description: [
-      'Created structured, high-quality annotated datasets to support LLM training in health and agriculture',
-      'Conducted slot-filling, intent tagging, and evaluation of utterance-level predictions'
+      'Created high-quality annotated datasets for machine learning projects in healthcare and agriculture',
+      'Conducted NLP tasks including slot-filling, intent detection, and utterance-level evaluation',
+      'Maintained 98% accuracy rate across all annotation projects with zero delivery delays'
     ],
     type: 'work'
   },
   {
     id: 'sama',
-    title: 'AI Evaluator',
+    title: 'AI Model Evaluator',
     company: 'Sama Kenya',
-    location: 'Kenya',
+    location: 'Remote',
     duration: 'Sept 2024 – Dec 2024',
     description: [
-      'Reviewed model-generated content for alignment with instructions and user queries',
-      'Participated in feedback cycles to enhance accuracy of vision-language alignment systems'
+      'Evaluated AI model outputs for alignment with user instructions and quality standards',
+      'Participated in iterative feedback cycles to improve vision-language AI systems',
+      'Contributed to enhancement of AI model accuracy and user experience'
     ],
     type: 'work'
   },
   {
-    id: 'freelance',
-    title: 'Freelance Web Developer, SEO Copywriter & Content Mentor',
+    id: 'freelance-va',
+    title: 'Freelance Virtual Assistant & Digital Marketing Specialist',
     company: 'Self-Employed',
     location: 'Remote',
     duration: 'May 2024 – Sept 2024',
     description: [
-      'Built and customized websites using WordPress and Wix; optimized page speed and structure',
-      'Mentored writers on structuring blog content for readability, tone, and SEO',
-      'Set up tracking tools and email integrations for small business clients'
-    ],
-    type: 'work'
-  },
-  {
-    id: 'echo-tech',
-    title: 'Virtual Assistant',
-    company: 'Echo Tech Innovations',
-    location: 'Remote',
-    duration: 'Feb 2021 – May 2024',
-    description: [
-      'Handled email communications, meeting scheduling, and document management for executive support',
-      'Updated client websites and coordinated digital engagement activities',
-      'Supported CRM entries, internal reports, and content uploads'
+      'Provided virtual assistant services including WordPress/Wix website management and SEO optimization',
+      'Managed social media accounts, email marketing campaigns, and content creation for small businesses',
+      'Mentored content creators on SEO writing, blog structuring, and digital marketing strategies'
     ],
     type: 'work'
   },
   {
     id: 'moja',
-    title: 'Monitoring and Evaluation Staff',
+    title: 'Data Collection & Administrative Support Specialist',
     company: 'Moja Expressway',
     location: 'Kenya',
     duration: 'Mar 2022 – May 2023',
     description: [
-      'Collected operational road use data and visualized key metrics in digital dashboards',
-      'Contributed to monthly M&E reports used in partner evaluations'
+      'Collected and organized operational data, creating digital dashboards for performance tracking',
+      'Prepared monthly monitoring and evaluation reports for management and partner organizations',
+      'Supported administrative operations and data management systems'
+    ],
+    type: 'work'
+  },
+  {
+    id: 'iebc-clerk',
+    title: 'Registration Officer & Administrative Support',
+    company: 'IEBC – Independent Electoral and Boundaries Commission',
+    location: 'Kenya',
+    duration: 'Jan – Feb 2022 & Oct – Nov 2021',
+    description: [
+      'Managed biometric voter registration systems and database entry',
+      'Provided customer service and support to voters during registration process',
+      'Maintained accurate records and generated system reports'
+    ],
+    type: 'work'
+  },
+  {
+    id: 'uwezo',
+    title: 'Administrative Officer',
+    company: 'Uwezo Fund Oversight Board',
+    location: 'Kenya',
+    duration: 'Jan 2020 – Dec 2020',
+    description: [
+      'Reviewed funding applications and coordinated community vetting sessions',
+      'Managed document filing, report preparation, and stakeholder communications',
+      'Supported project monitoring and progress reporting activities'
     ],
     type: 'work'
   },
@@ -230,33 +247,35 @@ export const experiences: Experience[] = [
     location: 'Nairobi, Kenya',
     duration: '2015 – 2019',
     description: [
-      'Comprehensive study of statistical methods, data analysis, and mathematical modeling',
-      'Specialized in data visualization, hypothesis testing, and statistical inference'
+      'Comprehensive study of statistical methods, data analysis, and research methodologies',
+      'Specialized in data collection, analysis, and visualization techniques',
+      'Developed strong analytical and problem-solving skills applicable to business operations'
     ],
     type: 'education'
   },
   {
-    id: 'moringa',
-    title: 'Software Engineering Program',
-    company: 'Moringa School',
-    location: 'Kenya',
-    duration: 'May 2024 – Jan 2025',
-    description: [
-      'Built and deployed full stack web apps using modern frameworks',
-      'Used Git, API endpoints, and agile development principles',
-      'Gained expertise in React, Python, JavaScript, and database management'
-    ],
-    type: 'certification'
-  },
-  {
-    id: 'alx',
-    title: 'Virtual Assistant Program',
+    id: 'alx-va',
+    title: 'Virtual Assistant Professional Certificate',
     company: 'ALX Africa',
     location: 'Remote',
     duration: 'July 2024 – Sept 2024',
     description: [
-      'Trained in remote work tools, communication, and productivity systems',
-      'Specialized in client management and digital collaboration'
+      'Comprehensive training in virtual assistant best practices and remote work methodologies',
+      'Specialized in client communication, productivity tools, and digital collaboration platforms',
+      'Gained expertise in project management and business support systems'
+    ],
+    type: 'certification'
+  },
+  {
+    id: 'moringa-tech',
+    title: 'Technical Skills Development Program',
+    company: 'Moringa School',
+    location: 'Kenya',
+    duration: 'May 2024 – Jan 2025',
+    description: [
+      'Enhanced technical skills in web development and digital tools',
+      'Gained proficiency in modern web technologies to support client technical needs',
+      'Applied programming knowledge to automate administrative tasks and improve efficiency'
     ],
     type: 'certification'
   }
