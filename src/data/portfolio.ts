@@ -263,45 +263,50 @@ export const experiences: Experience[] = [
 ];
 
 export const skills: Skill[] = [
-  // Programming Languages
-  { name: 'Python', category: 'Programming Languages', level: 95 },
-  { name: 'JavaScript', category: 'Programming Languages', level: 90 },
-  { name: 'PHP', category: 'Programming Languages', level: 85 },
-  { name: 'Java', category: 'Programming Languages', level: 80 },
-  { name: 'Kotlin', category: 'Programming Languages', level: 75 },
-  { name: 'R', category: 'Programming Languages', level: 70 },
+  // Administrative & Executive Support
+  { name: 'Email Management', category: 'Administrative Support', level: 95 },
+  { name: 'Calendar Scheduling', category: 'Administrative Support', level: 95 },
+  { name: 'Document Management', category: 'Administrative Support', level: 90 },
+  { name: 'Meeting Coordination', category: 'Administrative Support', level: 90 },
+  { name: 'Travel Planning', category: 'Administrative Support', level: 85 },
+  { name: 'Executive Assistance', category: 'Administrative Support', level: 90 },
   
-  // Frontend Technologies
-  { name: 'React', category: 'Frontend Technologies', level: 90 },
-  { name: 'Next.js', category: 'Frontend Technologies', level: 85 },
-  { name: 'HTML/CSS', category: 'Frontend Technologies', level: 95 },
-  { name: 'Bootstrap', category: 'Frontend Technologies', level: 90 },
-  { name: 'Tailwind CSS', category: 'Frontend Technologies', level: 85 },
+  // CRM & Business Tools
+  { name: 'HubSpot', category: 'CRM & Business Tools', level: 85 },
+  { name: 'Salesforce', category: 'CRM & Business Tools', level: 80 },
+  { name: 'Trello', category: 'CRM & Business Tools', level: 90 },
+  { name: 'Slack', category: 'CRM & Business Tools', level: 95 },
+  { name: 'Jira', category: 'CRM & Business Tools', level: 85 },
+  { name: 'Asana', category: 'CRM & Business Tools', level: 80 },
   
-  // Backend Technologies
-  { name: 'Laravel', category: 'Backend Technologies', level: 90 },
-  { name: 'Django', category: 'Backend Technologies', level: 85 },
-  { name: 'Spring Boot', category: 'Backend Technologies', level: 80 },
-  { name: 'Node.js', category: 'Backend Technologies', level: 85 },
-  { name: 'Express.js', category: 'Backend Technologies', level: 80 },
+  // Digital & Web Management
+  { name: 'WordPress', category: 'Digital Solutions', level: 90 },
+  { name: 'Wix (Classic, Studio, Velo)', category: 'Digital Solutions', level: 85 },
+  { name: 'SEO Optimization', category: 'Digital Solutions', level: 85 },
+  { name: 'Google Analytics', category: 'Digital Solutions', level: 80 },
+  { name: 'Social Media Management', category: 'Digital Solutions', level: 85 },
+  { name: 'Content Creation', category: 'Digital Solutions', level: 90 },
   
-  // Databases
-  { name: 'MySQL', category: 'Databases', level: 90 },
-  { name: 'PostgreSQL', category: 'Databases', level: 85 },
-  { name: 'MongoDB', category: 'Databases', level: 80 },
-  { name: 'SQL Server', category: 'Databases', level: 75 },
+  // Technical Skills
+  { name: 'HTML/CSS', category: 'Technical Skills', level: 85 },
+  { name: 'JavaScript', category: 'Technical Skills', level: 80 },
+  { name: 'Python', category: 'Technical Skills', level: 85 },
+  { name: 'React', category: 'Technical Skills', level: 80 },
+  { name: 'Node.js', category: 'Technical Skills', level: 75 },
+  { name: 'PHP', category: 'Technical Skills', level: 75 },
   
-  // Data Analysis & Visualization
-  { name: 'Power BI', category: 'Data Analysis', level: 90 },
-  { name: 'Tableau', category: 'Data Analysis', level: 85 },
-  { name: 'Pandas', category: 'Data Analysis', level: 90 },
-  { name: 'Matplotlib', category: 'Data Analysis', level: 85 },
-  { name: 'Excel', category: 'Data Analysis', level: 95 },
+  // Data & Analytics
+  { name: 'Excel Advanced', category: 'Data & Analytics', level: 95 },
+  { name: 'Google Sheets', category: 'Data & Analytics', level: 95 },
+  { name: 'SQL', category: 'Data & Analytics', level: 80 },
+  { name: 'Python (Pandas)', category: 'Data & Analytics', level: 85 },
+  { name: 'Data Visualization', category: 'Data & Analytics', level: 80 },
+  { name: 'Report Creation', category: 'Data & Analytics', level: 90 },
   
-  // Tools & Others
-  { name: 'Git/GitHub', category: 'Tools', level: 90 },
-  { name: 'Docker', category: 'Tools', level: 75 },
-  { name: 'AWS', category: 'Tools', level: 70 },
-  { name: 'Figma', category: 'Tools', level: 80 },
-  { name: 'WordPress', category: 'Tools', level: 85 }
+  // AI & Automation
+  { name: 'AI Data Annotation', category: 'AI & Automation', level: 90 },
+  { name: 'Workflow Automation', category: 'AI & Automation', level: 85 },
+  { name: 'Process Optimization', category: 'AI & Automation', level: 85 },
+  { name: 'NLP Annotation', category: 'AI & Automation', level: 85 },
+  { name: 'AI Model Evaluation', category: 'AI & Automation', level: 80 }
 ];

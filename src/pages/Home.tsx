@@ -7,19 +7,19 @@ import heroImage from '@/assets/centrine-photo.jpg';
 const Home = () => {
   const highlights = [
     {
-      icon: Code,
-      title: 'Full Stack Development',
-      description: 'Building responsive web applications with modern frameworks like React, Laravel, Django, and Spring Boot.'
+      icon: Mail,
+      title: 'Executive Support',
+      description: 'Email management, calendar scheduling, document handling, and comprehensive administrative support for busy executives.'
     },
     {
-      icon: BarChart3,
-      title: 'Data Analysis & BI',
-      description: 'Creating interactive dashboards and extracting insights using Power BI, Tableau, and Python.'
+      icon: Code,
+      title: 'Digital Solutions',
+      description: 'Website management, CRM systems, SEO optimization, and technical support using WordPress, Wix, and custom platforms.'
     },
     {
       icon: Brain,
-      title: 'AI & Machine Learning',
-      description: 'Working with AI models, data annotation, and evaluation for enhanced decision-making systems.'
+      title: 'AI & Automation',
+      description: 'AI data annotation, workflow automation, and digital process optimization to enhance business efficiency.'
     }
   ];
 
@@ -38,12 +38,12 @@ const Home = () => {
                   <span className="gradient-text">Centrine</span>
                 </h1>
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-muted-foreground">
-                  Full Stack Developer | Data Analyst & Data Analytics Developer | AI Automation Specialist
+                  Virtual Assistant | Executive Support Specialist | AI & Tech Solutions Expert
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-2xl">
-                  Passionate about creating data-driven solutions and innovative web applications. 
-                  I transform complex data into actionable insights and build scalable software 
-                  that makes a difference.
+                  Versatile virtual assistant with 4+ years of executive support experience and technical expertise. 
+                  I streamline operations, manage digital workflows, and provide comprehensive administrative 
+                  support to help businesses thrive in the digital age.
                 </p>
               </div>
 
@@ -96,7 +96,7 @@ const Home = () => {
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-4xl font-bold">What I Do</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Combining statistical expertise with modern technology to deliver impactful solutions
+              Combining technical expertise with executive support skills to streamline business operations
             </p>
           </div>
 
@@ -121,16 +121,16 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
-              <div className="text-4xl font-bold gradient-text">6+</div>
-              <div className="text-muted-foreground">Programming Languages</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-bold gradient-text">15+</div>
-              <div className="text-muted-foreground">Projects Completed</div>
-            </div>
-            <div className="space-y-2">
               <div className="text-4xl font-bold gradient-text">4+</div>
-              <div className="text-muted-foreground">Years Experience</div>
+              <div className="text-muted-foreground">Years VA Experience</div>
+            </div>
+            <div className="space-y-2">
+              <div className="text-4xl font-bold gradient-text">50+</div>
+              <div className="text-muted-foreground">Tasks Automated</div>
+            </div>
+            <div className="space-y-2">
+              <div className="text-4xl font-bold gradient-text">10+</div>
+              <div className="text-muted-foreground">Platforms Mastered</div>
             </div>
             <div className="space-y-2">
               <div className="text-4xl font-bold gradient-text">100%</div>
@@ -146,8 +146,8 @@ const Home = () => {
           <div className="space-y-6 text-primary-foreground">
             <h2 className="text-4xl font-bold">Ready to Work Together?</h2>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              I'm always excited to take on new challenges and collaborate on innovative projects. 
-              Let's discuss how I can help bring your ideas to life.
+              Ready to streamline your business operations and free up your time? 
+              Let's discuss how I can support your success as your dedicated virtual assistant.
             </p>
             <Button 
               size="lg" 
