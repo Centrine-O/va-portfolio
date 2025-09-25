@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight, Download, Mail, Code, BarChart3, Brain } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import heroImage from '@/assets/hero-image.jpg';
+import heroImage from '@/assets/centrine-photo.jpg';
 
 const Home = () => {
   const highlights = [
