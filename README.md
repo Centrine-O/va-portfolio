@@ -1,18 +1,10 @@
-# Welcome to your Lovable project
+# Welcome to my portfolio project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/07c9059d-2e8e-48b4-8856-61367a523b1e
+**URL**: https://centrine-o.github.io/va-portfolio/
 
 ## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/07c9059d-2e8e-48b4-8856-61367a523b1e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -52,22 +44,9 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with:
-
+This project is built with; frontend:
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/07c9059d-2e8e-48b4-8856-61367a523b1e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
